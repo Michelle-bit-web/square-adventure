@@ -35,7 +35,7 @@ function draw(){
         player.x + 25 >= platform.x - 75 &&
         player.x - 25 <= platform.x + 75 &&
         player.y + 25 >= platform.y - 10 &&
-        player.y + 25 <= platform.y + 10 
+        player.y + 25 <= platform.y + 10
     ){
         jumpForce = 0;
         player.y = platform.y - 35;
